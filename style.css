@@ -1,0 +1,55 @@
+html{
+    background-color: beige;
+}
+.players,.health,.powers,.death{
+    justify-content: space-evenly;
+}
+#win{
+    display: flex;
+    justify-content: center;
+    background-color: 	#fff15c;
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+}
+h2{
+    font-family: cursive;
+}
+#hp2{
+    margin-left: 100px;
+}
+#head{
+    display: flex;
+    justify-content: center;
+}
+div{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.buttons{
+    justify-content: space-evenly;
+}
+button:hover{
+    background-color: #edc9af;
+}
+button{
+    cursor: pointer;
+    font-size: medium;
+    background-color: beige;
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+#btn3{
+    margin-left: 140px;
+}
+p{
+    font-size: 18px;
+    font-style: italic;
+}
+#po1{
+    margin-right: 150px;
+}
+

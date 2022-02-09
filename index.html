@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shooting Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="head">2 player Shooting Game</h1>
+    <h2 id="win"></h2>
+    <div class="players">
+        <h1 id="p1">Player 1-Won:0</h1>
+        <h1 id="p2">Player 2-Won:0</h1>  
+    </div>
+    <div class="health">
+    <p id="hp1">Health:100</p>
+    <p id="hp2">Health:100</p>   
+</div>
+<div class="powers">
+<p id="po1">Power:</p>
+<p id="po2">Power:</p>
+</div>
+<div class="buttons">
+<button id="btn2" onclick="isDisabledT(),shoot()">Shoot</button>
+<button id="btn3" onclick="isDisabledF(),shoot2()">Shoot</button>
+</div>
+</body>
+<script src="script.js">
+</script>
+</html>
